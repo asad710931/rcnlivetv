@@ -1,0 +1,13 @@
+.mybtn{
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.76);
+  padding:10px 10px;
+  border-radius: 5px;
+  margin-top: 3px;
+  color: white;
+}
+.mybtn:hover{
+  background-color: rgba(0, 0, 0, 0.863);
+  color: rgba(255, 255, 255, 0.877);
+  transition: 0.2s all linear 0s;
+}

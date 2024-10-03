@@ -1,0 +1,47 @@
+.page-container{
+    
+}
+
+
+.form-field{
+    background: rgb(239 223 223 / 49%);
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 0px 10px; 
+    border-radius: 5px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    justify-content: center;
+    
+}
+.warning{
+    color: rgb(214, 62, 62);
+}
+.content{
+    width: 100%;
+    max-width: 1080px;
+    color: rgba(255, 255, 255, 0.849);
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.abt-header{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-info{
+    background: rgba(5, 1, 43, 0.719);
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.about-info>ol{
+    list-style: circle;
+    margin: 5px;
+}
+.about-info>ol>li{
+   margin-top: 20px;
+}

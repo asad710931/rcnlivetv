@@ -1,0 +1,77 @@
+.navbar-box{
+    position: fixed;
+    width: 100%;
+    background-color: #162541f7;
+    padding: 15px 21px;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    z-index: 3;
+}
+.manu-btn{
+    margin-right: 20px;
+
+}
+
+h2{color: rgb(214, 207, 207);margin: 0px 0px;}
+
+.sidebar{ 
+
+    position: fixed;
+    margin:0em 0px;
+    width:0;
+    height: 130%;
+    background-color: rgb(55, 139, 179);
+    background: rgb(13,41,113);
+    background: linear-gradient(90deg, rgba(13,41,113,1) 12%, rgba(16,61,102,1) 49%, rgba(49,65,181,1) 80%);
+    overflow:hidden;
+    transition: all 0.3s ease-in-out 0s;
+    z-index: 5;
+    
+}
+
+.close-box{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: end;
+    
+}
+.close-box>button{
+    cursor: pointer;
+    cursor: pointer;
+    background: #00000094;
+    padding: 0.6em;
+    /* border-radius: 100%;*/
+    border-radius: 5px;
+}
+.nav-natigate{
+    padding: 10px 15px;
+}
+.user-info{ 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;}
+.user-profile{
+    padding: 10px;
+    background-color: #2b3b43;
+    border-radius: 100%;
+}
+.nav-header{
+    margin: 40px 0px;
+}
+.btn-links{
+    display: flex;
+    padding: 10px 20px;
+    color: white;
+    background: #00000094;
+    margin: 5px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select:none;
+}
+
+@media only screen and (max-width:600px) {
+
+}

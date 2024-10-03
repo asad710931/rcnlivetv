@@ -1,0 +1,20 @@
+.inputField{
+    width:100%;
+}
+.inputField>label{
+ font-size: 13px;
+}
+.inputField>input{
+    width: 100%;
+    padding:10px 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.76);
+    
+}
+.inputField>input:focus{
+    outline: none;
+}
+.inputField>input[type=text]{
+    font-size: 15px;
+    color: white;
+}
