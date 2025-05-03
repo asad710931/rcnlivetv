@@ -2,8 +2,9 @@ const channelsDatas=[
       {
         id:1,
         title:'live',
-        category:'RCN live',logoUrl:'https://png.pngtree.com/png-clipart/20220211/ourmid/pngtree-3d-modern-live-streaming-png-image_4382808.png',
-        liveUrl:'https://toffee.iptvbd.xyz/player.html?channel_id=sony_ten2_hd'
+        category:'RCN live',
+        logoUrl:'https://www.jagobd.com/wp-content/uploads/2019/12/t-sports.jpg',
+        liveUrl:'http://38.96.178.201/live/TSports/index.m3u8'
       },
       {
         id:1,
